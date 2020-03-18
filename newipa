@@ -60,3 +60,43 @@ itms-services:///?action=download-manifest&url=“plist的URL”
 	<key>items</key>
 	<array>
 <dict>
+循环：
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>ipa 地址</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>ipa安装时图片</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>ipa安装时图片</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.tongbu.youzu.kbzy</string>
+				<key>bundle-version</key>
+				<string>应用版本</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>应用简介</string>
+				<key>title</key>
+				<string>应用名字，安装时显示：XXX要安装“你填写的应用名字”</string>
+			</dict>
+		</dict><dict> （最后一个app不同：把第二个“<dict>”改写成“	</array>”，提示：有空格）
