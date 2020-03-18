@@ -1,4 +1,4 @@
-1、如何安装？
+1、如何在IOS设备上进行安装？
 itms-services:///?action=download-manifest&url=“plist的URL”
 
 2、安装单个app方法：
