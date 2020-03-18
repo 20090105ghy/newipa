@@ -99,4 +99,7 @@ itms-services:///?action=download-manifest&url=“plist的URL”
 				<key>title</key>
 				<string>应用名字，安装时显示：XXX要安装“你填写的应用名字”</string>
 			</dict>
-		</dict><dict> （最后一个app不同：把第二个“<dict>”改写成“	</array>”，提示：有空格）
+		</dict><dict> （最后一个app不同：把第二个“<dict>”改写成“	</array>”，提示：有空格），改成“</dict>	</array>”
+结尾：
+</dict>
+</plist>
