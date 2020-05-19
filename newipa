@@ -36,7 +36,7 @@ itms-services:///?action=download-manifest&url=“plist的URL”
            </array><key>metadata</key>
            <dict>
                <key>bundle-identifier</key>
-               <string>com.tongbu.tui.4JYAX2VT5B</string>
+               <string>APP标识，比如com.xxx.demo</string>
                <key>bundle-version</key>
                <string>应用版本</string>
                <key>kind</key>
